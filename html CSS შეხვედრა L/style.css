@@ -1,0 +1,50 @@
+table,th,td{
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: black; */
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* th{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+td{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+} */
+
+
+.solid{
+    border-style: solid;
+    border-color: green;
+    border-width: 10px;
+    border-radius: 20px;
+}
+.dotted{
+    border-style: dotted;
+    border-radius: 15px
+    ;
+}
+.dashed{
+    border-style: dashed;
+}
+.groove{
+    border-style: groove;
+}
+
+.first{
+    text-align: center;
+    border: 5px solid black;
+}
+.second{
+    font-size: 40px;
+    border: 4px double black;
+}
+img{
+    border: 10px solid green;
+}
