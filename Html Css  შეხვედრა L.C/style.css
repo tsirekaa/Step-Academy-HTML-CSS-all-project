@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    box-shadow: 0px 0px 15px 1px rgb(0, 106, 107);
+    transition: 0.3s;
+}
+.navbar:hover{
+    box-shadow: 0px 0px 15px 20px rgb(84, 194, 0);
+    transition: 0.3s;
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+li{
+    list-style-type: none;
+}
+.textarea h5{
+    font-size: 20px;
+}
+.btn{
+    margin-right: 50px;
+}
+.btn button{
+    background-color: #0088A8;
+    color: white;
+    padding: 8px 35px;
+    border-radius: 15px;
+}
